@@ -1,3 +1,130 @@
-body {
-  background-color: $grey;
+body{
+  background-color: #4f4f4f;
+}
+
+.main-box {
+  background-color: white;
+  width: 900px;
+  height: 900px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.photo-box {
+  cursor: pointer;
+  height: 150px;
+  width: 100px;
+  background-image: url("../images/IMG_8951.JPG");
+}
+
+.name-box {
+  background-color: #A8034A;
+  color: white;
+  cursor: pointer;
+  height: 150px;
+  width: 310px;
+  font-family: "Muli", sans-serif;
+  span {
+    font-size: 30px;
+  }
+}
+
+.school-box {
+  background-color: #259fd3;
+  cursor: pointer;
+  height: 150px;
+  width: 100px;
+  &:hover {
+    background-color: white;
+  }
+}
+
+.job-box {
+  background-color: yellow;
+  cursor: pointer;
+  height: 150px;
+  width: 100px;
+  &:hover {
+    background-color: white;
+  }
+}
+
+
+.contact-box {
+  background-color: #7CAF00;
+  cursor: pointer;
+  height: 150px;
+  width: 100px;
+  &:hover {
+    background-color: white;
+  }
+}
+
+.linkedin-box {
+  background-color: #37659e;
+  cursor: pointer;
+  height: 150px;
+  width: 100px;
+  margin-left: 600px;
+  &:hover {
+    background-color: white;
+  }
+}
+
+.github-box {
+  background-color: $black;
+  cursor: pointer;
+  height: 150px;
+  width: 100px;
+  &:hover {
+    background-color: white;
+  }
+}
+
+.empty-box{
+  background-color: #cc495a;
+  cursor: pointer;
+  height: 150px;
+  width: 100px;
+  margin-left: 600px;
+  &:hover {
+    background-color: white;
+  }
+}
+
+.success-box {
+  background-color: red;
+  cursor: pointer;
+  height: 150px;
+  width: 100px;
+  &:hover {
+    background-color: white;
+  }
+}
+
+
+
+footer {
+  color: #616468;
+  margin-bottom: 20px;
+  margin-top: 300px;
+  font-family: "Muli", sans-serif;
+  margin-left: 350px;
+}
+
+.blue-line-footer {
+  width: 100px;
+  height: 1px;
+  background-color: #50C0E9;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.mail-footer {
+  cursor: pointer;
+  &:hover {
+    color: black;
+  }
 }
