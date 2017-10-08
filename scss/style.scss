@@ -4,7 +4,7 @@ body{
 
 .main-box {
   background-color: white;
-  width: 900px;
+  width: 899px;
   height: 900px;
   margin-top: 60px;
   margin-bottom: 60px;
@@ -41,8 +41,17 @@ body{
   }
 }
 
+.fa-align-justify {
+  margin-left: 35px;
+  margin-top: 45px;
+  color: white;
+  &:hover {
+    color: grey;
+  }
+}
+
 .job-box {
-  background-color: yellow;
+  background-color: #dacfe0;
   cursor: pointer;
   height: 150px;
   width: 100px;
@@ -51,15 +60,39 @@ body{
   }
 }
 
+.fa-briefcase {
+  margin-left: 35px;
+  margin-top: 45px;
+  color: white;
+  &:hover {
+    color: grey;
+  }
+}
+
 
 .contact-box {
-  background-color: #7CAF00;
+  background-color: #6C576A;
   cursor: pointer;
   height: 150px;
   width: 100px;
   &:hover {
     background-color: white;
   }
+}
+
+.fa-envelope {
+  margin-left: 35px;
+  margin-top: 45px;
+  color: white;
+  &:hover {
+    color: grey;
+  }
+}
+
+.aboutme-text {
+  font-family: "Muli", sans-serif;
+  font-size: 20px;
+  float: left;
 }
 
 .linkedin-box {
@@ -67,9 +100,19 @@ body{
   cursor: pointer;
   height: 150px;
   width: 100px;
-  margin-left: 600px;
+  margin-left: 149.5px;
+  float: right;
   &:hover {
     background-color: white;
+  }
+}
+
+.fa-linkedin-square {
+  margin-left: 35px;
+  margin-top: 45px;
+  color: white;
+  &:hover {
+    color: grey;
   }
 }
 
@@ -83,19 +126,28 @@ body{
   }
 }
 
+.fa-github {
+  margin-left: 35px;
+  margin-top: 45px;
+  color: white;
+  &:hover {
+    color: grey;
+  }
+}
+
 .empty-box{
-  background-color: #cc495a;
+  background-color: #C9635E;
   cursor: pointer;
   height: 150px;
   width: 100px;
-  margin-left: 600px;
+  margin-left: 599px;
   &:hover {
     background-color: white;
   }
 }
 
 .success-box {
-  background-color: red;
+  background-color: #889F4F;
   cursor: pointer;
   height: 150px;
   width: 100px;
@@ -124,6 +176,7 @@ footer {
 
 .mail-footer {
   cursor: pointer;
+  margin-left: -40px;
   &:hover {
     color: black;
   }
