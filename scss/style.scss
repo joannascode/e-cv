@@ -91,8 +91,10 @@ body{
 
 .aboutme-text {
   font-family: "Muli", sans-serif;
-  font-size: 20px;
+  font-size: 17px;
   float: left;
+  margin-left: 20px;
+  margin-top: 50px;
 }
 
 .linkedin-box {
@@ -100,7 +102,7 @@ body{
   cursor: pointer;
   height: 150px;
   width: 100px;
-  margin-left: 149.5px;
+  margin-left: 129.5px;
   float: right;
   &:hover {
     background-color: white;
@@ -161,9 +163,29 @@ body{
 footer {
   color: #616468;
   margin-bottom: 20px;
-  margin-top: 300px;
+  margin-top: 200px;
   font-family: "Muli", sans-serif;
   margin-left: 350px;
+  font-size: 20px;
+}
+
+.blue-cirlce-footer {
+  width: 80px;
+  height: 80px;
+  background-color: #50C0E9;
+  margin-bottom: 40px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.fa-mobile {
+  color: white;
+  margin-left: 25px;
+  margin-top: 10px;
+}
+
+.phone-footer {
+  margin-left: -8px;
 }
 
 .blue-line-footer {
@@ -176,7 +198,7 @@ footer {
 
 .mail-footer {
   cursor: pointer;
-  margin-left: -40px;
+  margin-left: -60px;
   &:hover {
     color: black;
   }
